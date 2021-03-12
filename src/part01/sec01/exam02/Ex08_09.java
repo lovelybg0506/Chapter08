@@ -13,7 +13,8 @@ public class Ex08_09 {
 		
 		System.out.println("문자열1==문자열2 결과:\t"+(str1==str2)); // 주소값비교
 		System.out.println("문자열1==문자열3 결과:\t"+(str1==str3)); // 주소값비교
-		System.out.println("문자열1.equals(문자열3) 결과:\t"+str1.equals(str3)); // 실제 값 비교
+		System.out.println("문자열1.equals(문자열3) 결과:\t"+str1.equals(str3)); 
+															// 실제 값 비교
 		
 		
 		

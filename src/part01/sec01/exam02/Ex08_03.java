@@ -12,7 +12,7 @@ public class Ex08_03 {
 		str=s.nextLine();
 		System.out.print("출력 문자열==>");
 		
-		if(!str.startsWith("(")) // a,b,c) // 좌측괄호 부터 시작했는가
+		if(!str.startsWith("(")) // a,b,c) // 좌측괄호 부터 시작했는가? !< 안했으면,  ( 써줘라.
 			System.out.printf("(");
 		
 		
@@ -23,6 +23,7 @@ public class Ex08_03 {
 		if(!str.endsWith(")")) // 문자열 끝에 ) 가 있는가
 			System.out.printf(")");
 			
+		
 		s.close();
 			
 	}
